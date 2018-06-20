@@ -1,0 +1,36 @@
+{
+	"name": "WikispacesMigration",
+	"version": "0.1.0",
+	"author": [
+		"Sylvain Philip",
+		"Gergő Tisza"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WikispacesMigration",
+	"descriptionmsg": "wikispacesmigration-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\WikispacesMigration\\": "src/",
+		"MediaWiki\\Extension\\WikispacesMigration\\Maintenance\\": "maintenance/"
+	},
+	"ConfigRegistry": {
+		"wikispacesmigration": "GlobalVarConfig::newInstance"
+	},
+	"config_prefix": "wgWikispacesMigration",
+	"config": {},
+	"ExtensionMessagesFiles": {
+		"WikispacesMigrationAlias": "WikispacesMigration.i18n.alias.php"
+	},
+	"MessagesDirs": {
+		"WikispacesMigration": [
+			"i18n"
+		]
+	},
+	"SpecialPages": {
+		"WikispacesMigration": "MediaWiki\\Extension\\WikispacesMigration\\SpecialWikispacesMigration"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gergő Tisza"
+		]
+	},
+	"wikispacesmigration-desc": "Migrate wikis from Wikispaces",
+	"wikispacesmigration-summary": "[Imported from Wikispaces] $1",
+	"wikispacesmigration-importer-invalidtitle": "Invalid title $1",
+	"wikispacesmigration-importer-titleexists": "Title $1 already exists.",
+	"wikispacesmigration-importer-notmodified": "File for title $1 has not been modified since the destination page was touched.",
+	"wikispacesmigration-importer-notchanged": "Page for title $1 contains no changes from the current revision.",
+	"wikispacesmigration-importer-failed": "Importing $1 failed",
+	"wikispacesmigration-importmanager-fileerror": "Failed to import file $1! Errors:\n$2",
+	"wikispacesmigration-importer-sectionnotfound": "Section not found: page $1 section $2",
+	"wikispacesmigration-importer-nottext": "Unexpected non-text content on page $1",
+	"wikispacesmigration-importer-talkeditimportfailed": "Failed to import talkpage edit on page $1"
+}

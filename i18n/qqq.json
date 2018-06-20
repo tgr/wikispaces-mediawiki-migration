@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gergő Tisza"
+		]
+	},
+	"wikispacesmigration-desc": "{{desc|name=WikispacesMigration|url=https://www.mediawiki.org/wiki/Extension:WikispacesMigration}}",
+	"wikispacesmigration-summary": "Default edit summary for importing content"
+}
